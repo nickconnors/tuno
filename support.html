@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Tuno</title>
+<meta name="description" content="Help with Tuno: adding a playlist, the demo, playback, the TV guide and downloads.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="name" href="./">Tuno</a>
+  <a href="support.html" aria-current="page">Support</a>
+  <a href="privacy.html">Privacy</a>
+</header>
+<main>
+<h1>Support</h1>
+<p class="lead">Tuno is a player for your own IPTV playlist. It comes with no channels or content,
+and has no accounts of its own.</p>
+
+<h2>Adding your playlist</h2>
+<p>Your TV provider gives you one of two things:</p>
+<ul>
+  <li><strong>An Xtream Codes login</strong>: a server address (it looks like
+  <code>http://provider.com:8080</code>), a username and a password. This brings live channels with
+  categories and a guide, and the provider's movies and shows.</li>
+  <li><strong>An M3U link</strong>: one long link to a playlist file. Paste it under M3U URL.</li>
+</ul>
+<p>If you have a long link with <code>get.php</code> in it, paste it into Server: the username and
+password fill in by themselves.</p>
+
+<h2>Looking around without a playlist</h2>
+<p>On the Add Playlist screen, enter <code>demo</code> as the server and press Add Playlist. No
+username or password is needed. This loads sample content built into the app: invented channels with
+a guide, movies and shows, all playing one short test video. Remove it in Settings when you add your
+own playlist.</p>
+
+<h2>Common questions</h2>
+<ul>
+  <li><strong>A channel doesn't play.</strong> Channels come from your provider. Try another channel,
+  check your connection, and ask your provider if a channel stays down. Settings → Playback has a
+  stream format switch (TS or HLS) worth trying.</li>
+  <li><strong>"The login is incorrect" or "expired".</strong> That is your provider's answer. Check the
+  details with them. To enter them again: Settings, swipe right on the playlist.</li>
+  <li><strong>No TV guide on some channels.</strong> A guide comes from your provider, and many cover
+  only some channels. You can add another guide link in Settings → TV Guide.</li>
+  <li><strong>Downloads.</strong> Movies and episodes from your playlist can be saved to watch without
+  the internet, when your provider's files allow it. Settings → Downloads has Use Mobile Data and the
+  space used.</li>
+  <li><strong>Removing everything.</strong> Settings → swipe left on a playlist → Remove. Deleting the
+  app removes all of its data from the device.</li>
+</ul>
+
+<h2>Contact</h2>
+<p id="contact">Questions, a problem or an idea: <a href="https://github.com/nickconnors/tuno/issues">open an issue on GitHub</a>.</p>
+<p class="note">Tuno can't help with a provider's channels, login or billing: those are your
+provider's.</p>
+</main>
+</body>
+</html>
